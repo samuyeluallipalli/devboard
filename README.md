@@ -1,24 +1,35 @@
 # 🚀 DevBoard
 
-> A modern full-stack project management platform built for developers and teams to collaborate efficiently.
-
 <p align="center">
-  <strong>MERN Stack • JWT Authentication • Socket.io • Cloudinary • REST API</strong>
+  <h2 align="center">Modern Full-Stack Project Management Platform</h2>
+
+  <p align="center">
+    Organize Projects • Manage Tasks • Collaborate with Teams • Track Progress
+  </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react" />
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js" />
+    <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express" />
+    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb" />
+    <img src="https://img.shields.io/badge/JWT-Authentication-black?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge" />
+  </p>
 </p>
 
 ---
 
-## 📖 Overview
+# 📖 Overview
 
-DevBoard is a full-stack project management application that helps individuals and teams organize projects, manage tasks, collaborate in real time, and track progress through an intuitive dashboard.
+**DevBoard** is a modern full-stack **Project Management Platform** built with the **MERN Stack**. It helps individuals and teams efficiently organize projects, manage tasks, collaborate with members, and monitor progress through an intuitive dashboard.
 
-The application is designed using the MERN Stack and follows a scalable architecture suitable for modern web applications.
+The application follows a scalable architecture with secure authentication, RESTful APIs, MongoDB, and a responsive React frontend.
 
 ---
 
-## ✨ Features
+# ✨ Key Features
 
-### 🔐 Authentication
+## 🔐 Authentication
 
 * User Registration
 * Secure Login
@@ -26,45 +37,62 @@ The application is designed using the MERN Stack and follows a scalable architec
 * Protected Routes
 * User Profile Management
 
-### 📁 Project Management
+---
+
+## 📁 Project Management
 
 * Create Projects
-* Update Project Details
+* Update Projects
 * Delete Projects
 * Invite Team Members
-* Manage Collaborators
+* Team Collaboration
 
-### ✅ Task Management
+---
+
+## ✅ Task Management
 
 * Create Tasks
-* Assign Tasks
-* Update Task Status
 * Edit Tasks
 * Delete Tasks
+* Assign Tasks
+* Task Status Updates
 * Priority Management
 
-### 🔔 Notifications
+---
 
-* Real-time Notifications
+## 📌 Kanban Board
+
+* Drag and Drop Task Workflow
+* Visual Task Organization
+* Easy Progress Tracking
+
+---
+
+## 🔔 Notifications
+
+* Real-Time Notifications
 * Team Activity Updates
 
-### 📊 Dashboard
+---
 
-* Project Overview
-* Task Statistics
-* Progress Tracking
-* Productivity Insights
+## 📊 Dashboard
 
-### ☁️ Media Management
+* Project Statistics
+* Task Overview
+* Progress Monitoring
+
+---
+
+## ☁️ Media Upload
 
 * Cloudinary Integration
-* Image Upload Support
+* Profile Image Upload
 
 ---
 
 # 🛠️ Tech Stack
 
-## Frontend
+### Frontend
 
 * React.js
 * Vite
@@ -72,24 +100,24 @@ The application is designed using the MERN Stack and follows a scalable architec
 * Axios
 * CSS
 
-## Backend
+### Backend
 
 * Node.js
 * Express.js
-* REST API
 * JWT Authentication
+* REST APIs
 * Socket.io
 
-## Database
+### Database
 
 * MongoDB
 * Mongoose
 
-## Cloud Services
+### Cloud Services
 
 * Cloudinary
 
-## Development Tools
+### Development Tools
 
 * Git
 * GitHub
@@ -98,29 +126,75 @@ The application is designed using the MERN Stack and follows a scalable architec
 
 ---
 
-# 📂 Project Structure
+# 📂 Folder Structure
 
 ```text
 devboard/
 │
 ├── frontend/
-│   ├── public/
-│   ├── src/
-│   ├── package.json
-│   └── vite.config.js
 │
 ├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── socket/
-│   ├── package.json
-│   └── server.js
+│
+├── assets/
+│   ├── Dashboard.jpg
+│   ├── Kanban.jpg
+│   ├── Login.jpg
+│   ├── Notifications.jpg
+│   ├── Profile.jpg
+│   ├── Projects.jpg
+│   ├── Register.jpg
+│   └── Tasks.jpg
 │
 └── README.md
 ```
+
+---
+
+# 📸 Application Preview
+
+<table>
+
+<tr>
+<td align="center"><b>🔐 Login</b></td>
+<td align="center"><b>📝 Register</b></td>
+</tr>
+
+<tr>
+<td><img src="assets/Login.jpg" width="100%" alt="Login"></td>
+<td><img src="assets/Register.jpg" width="100%" alt="Register"></td>
+</tr>
+
+<tr>
+<td align="center"><b>📊 Dashboard</b></td>
+<td align="center"><b>📁 Projects</b></td>
+</tr>
+
+<tr>
+<td><img src="assets/Dashboard.jpg" width="100%" alt="Dashboard"></td>
+<td><img src="assets/Projects.jpg" width="100%" alt="Projects"></td>
+</tr>
+
+<tr>
+<td align="center"><b>✅ Tasks</b></td>
+<td align="center"><b>📌 Kanban Board</b></td>
+</tr>
+
+<tr>
+<td><img src="assets/Tasks.jpg" width="100%" alt="Tasks"></td>
+<td><img src="assets/Kanban.jpg" width="100%" alt="Kanban"></td>
+</tr>
+
+<tr>
+<td align="center"><b>🔔 Notifications</b></td>
+<td align="center"><b>👤 Profile</b></td>
+</tr>
+
+<tr>
+<td><img src="assets/Notifications.jpg" width="100%" alt="Notifications"></td>
+<td><img src="assets/Profile.jpg" width="100%" alt="Profile"></td>
+</tr>
+
+</table>
 
 ---
 
@@ -138,8 +212,6 @@ git clone https://github.com/samuyeluallipalli/devboard.git
 cd devboard
 ```
 
----
-
 ## Backend Setup
 
 ```bash
@@ -148,11 +220,9 @@ npm install
 npm run dev
 ```
 
----
-
 ## Frontend Setup
 
-Open a new terminal.
+Open another terminal:
 
 ```bash
 cd frontend
@@ -164,50 +234,32 @@ npm run dev
 
 # 🔑 Environment Variables
 
-Create a `.env` file inside the **backend** directory and configure the required environment variables, such as:
+Create a `.env` file inside the **backend** directory.
 
-* MongoDB connection string
-* JWT secret
-* Cloudinary credentials
-* Client URL
-* Server port
-
-Do not commit your `.env` file to GitHub.
-
----
-
-# 📸 Screenshots
-
-Add screenshots of:
-
-* Login Page
-* Dashboard
-* Project Management
-* Task Board
-* Team Collaboration
-* Notifications
-* User Profile
-
-Store them in:
-
-```text
-assets/screenshots/
+```env
+PORT=
+MONGO_URI=
+JWT_SECRET=
+CLIENT_URL=
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
 ```
 
-and display them in this README.
+> **Note:** Never commit your `.env` file to GitHub.
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Future Enhancements
 
-* Email Notifications
 * Calendar Integration
-* Kanban Board
+* Email Notifications
 * File Attachments
-* Dark/Light Theme
 * Activity Timeline
+* Team Chat
 * Advanced Analytics
-* Mobile Responsive Enhancements
+* Dark / Light Theme Improvements
+* Mobile Optimization
 
 ---
 
@@ -215,12 +267,11 @@ and display them in this README.
 
 Contributions are welcome.
 
-If you would like to improve this project:
-
 1. Fork the repository.
 2. Create a feature branch.
 3. Commit your changes.
-4. Open a Pull Request.
+4. Push the branch.
+5. Open a Pull Request.
 
 ---
 
@@ -228,13 +279,13 @@ If you would like to improve this project:
 
 **Samuel Allipalli**
 
-* GitHub: https://github.com/samuyeluallipalli
-* LinkedIn: https://www.linkedin.com/in/samuyelu-allipalli-424549285/
+* **GitHub:** https://github.com/samuyeluallipalli
+* **LinkedIn:** https://www.linkedin.com/in/samuyelu-allipalli-424549285/
 
 ---
 
 # ⭐ Support
 
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+If you found this project useful, please consider giving it a ⭐ on GitHub.
 
-It helps others discover the project and supports future development.
+It motivates me to continue building high-quality software and open-source projects.
