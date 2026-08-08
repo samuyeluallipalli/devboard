@@ -22,7 +22,7 @@ export function ThemeProvider({ children }) {
       return savedTheme === "dark";
     }
 
-    return false;
+    return true;
   });
 
   const toggleTheme = () => {
